@@ -1,3 +1,3 @@
 print("Hello World")
 print("Witaj świecie")
-print("szymon oglada julie wieniawe")
+print("radosław sie tasuje do anime")
