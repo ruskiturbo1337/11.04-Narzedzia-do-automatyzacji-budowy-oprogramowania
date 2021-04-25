@@ -17,6 +17,6 @@ x=input("Podaj x: ")
 y=input("Podaj y: ")
 
 if wybor == 1:
-    print(x,"+",y, dodaj(x,y))
-elif choice == 2:
-    print (x,"-",y, odejmij(x,y))
+    print(x,"+",y,"=" dodaj(x,y))
+elif wybor == 2:
+    print (x,"-",y,"=" odejmij(x,y))
