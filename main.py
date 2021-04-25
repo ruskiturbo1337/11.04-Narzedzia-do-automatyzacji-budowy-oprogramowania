@@ -1,12 +1,16 @@
-x = 3
-y = 4
-z = x + y
-print("Hello World")
-print("Witaj świecie")
-print(z)
+def menu():
+    print("1. Dodawanie")
+    print("2. Odejmowanie")
+    print("3. Mnożenie")
+    print("4. Dzielenie")
+    print("5. Potęgowanie")
 
-a = int(input("podaj x"))
-b = int(input("podaj y"))
-c = 2*a + 2*b
-print("obwód prostokata wynosi", c)
-#dobra es B)
+def dodaj(x,y):
+    wynik=x+y
+    return wynik
+print(menu())
+wybor = input(" Wybierz funkcję : ");
+x=input("Podaj x: ")
+y=input("Podaj y: ")
+if wybor == 1:
+    print(dodaj(x,y))
