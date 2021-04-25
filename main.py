@@ -1,3 +1,6 @@
+#Przydatna biblioteka w tego typu projektach
+import math
+
 def menu():
     print("1. Dodawanie")
     print("2. Odejmowanie")
