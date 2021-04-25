@@ -46,6 +46,6 @@ elif wybor == '4':
             continue
 
         except ZeroDivisionError:
-            print('Nie dziel przez zero!')
+            print('Nigdy chikero nie dziel przez zero!')
             continue
     print(a, "/", b, "=", podziel(a, b))        
