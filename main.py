@@ -24,10 +24,6 @@ menu()
 
 wybor = input(" Wybierz funkcję : ")
 
-x = float(input("Podaj x: "))
-
-y = float(input("Podaj y: "))
-
 if wybor == '1':
     print(x,"+",y,"=", dodaj(x,y))
 elif wybor == '2':
