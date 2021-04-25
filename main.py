@@ -17,10 +17,13 @@ def pomnoz(x,y):
 def podziel(x,y):
     return x / y
 
-print(menu())
-wybor = input(" Wybierz funkcję : ");
-x=float(input("Podaj x: "))
-y=float(input("Podaj y: "))
+menu()
+
+wybor = input(" Wybierz funkcję : ")
+
+x = float(input("Podaj x: "))
+
+y = float(input("Podaj y: "))
 
 if wybor == '1':
     print(x,"+",y,"=", dodaj(x,y))
