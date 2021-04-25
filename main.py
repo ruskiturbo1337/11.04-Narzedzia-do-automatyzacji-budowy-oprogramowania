@@ -18,9 +18,7 @@ def pomnoz(x,y):
     return x * y
 
 def podziel(x,y):
-    if (y == 0):
-        print("Nigdy cholero nie dziel przez zero")
-        return x / y
+    return x / y
 
 menu()
 
@@ -37,5 +35,17 @@ elif wybor == '2':
 elif wybor == '3':
     print(x,"*",y,"=", pomnoz(x,y))
 elif wybor == '4':
-    print(x,"/",y,"=", podziel(x,y))
+    while True:
+        try:
+            a = float(input("Podaj liczbę a którą chcesz podzielić: "))
+            b = float(input("Podaj dzielnik: "))
+            a / b
+            break
+        except ValueError:
+            print('Podaj poprawne wartości!')
+            continue
 
+        except ZeroDivisionError:
+            print('Nie dziel przez zero!')
+            continue
+    print(a, "/", b, "=", podziel(a, b))        
