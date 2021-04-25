@@ -15,7 +15,9 @@ def pomnoz(x,y):
     return x * y
 
 def podziel(x,y):
-    return x / y
+    if (y == 0):
+        print("Nigdy cholero nie dziel przez zero")
+        return x / y
 
 menu()
 
